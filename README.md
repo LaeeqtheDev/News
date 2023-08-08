@@ -1,6 +1,4 @@
-# News Homepage Challenge
 
-This is my submission for the News Homepage Challenge from Frontend Mentor, done with Next.js and Tailwind CSS.
 
 ## Description
 
@@ -12,9 +10,7 @@ The News Homepage Challenge is a design challenge where participants are given a
 | ------------------------------ | ----------------------------- |
 | Desktop version                | Mobile version                |
 
-## Live Link
 
-View the live version of this project at: `https://news-homepage-challenge-taupe.vercel.app/`
 
 ## Technologies Used
 
@@ -33,17 +29,5 @@ To run this project locally, follow these steps:
 4. Start the development server: `npm run dev`
 5. Open `http://localhost:3000` in your web browser
 
-## Acknowledgements
-
-This project was developed with reference to the following resources:
-
-- [Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-qhqHFQBzhX) for providing the challenge
-- [React documentation](https://reactjs.org/docs/getting-started.html) for reference and guidance
-- [NextJS documentation](https://nextjs.org/docs) for reference and  guidance
-
-## Credits
-
-- My LinkedIn: [@hatem-henchir-7a92141a8](https://www.linkedin.com/in/hatem-henchir-7a92141a8/)
-- My Frontend Mentor: [@hatemhenchir](https://www.frontendmentor.io/profile/hatemhenchir)
 
 
