@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100%;
+}
+body{
+  background-color:hsl(36, 100%, 99%);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.animate-slideFromRight {
+  animation: slideFromRight 0.5s ease forwards ;
+  
+}
+.animate-slideToTheRight{
+  animation: slideToTheRight 0.5s ease forwards;
+
+}
+
+@keyframes slideFromRight{
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+    display: none;
+  }
+}
+@keyframes slideToTheRight{
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to{
+    transform: translate(100%);
+    opacity: 0;
+  }
+}
